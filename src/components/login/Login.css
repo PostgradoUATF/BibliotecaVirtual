@@ -1,0 +1,28 @@
+#login{
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+#login-container{
+    width: 40%;
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    animation: fondo 8s infinite;
+    box-shadow: 1px 1px 20px 1px black;
+}
+#login-container >*{
+    opacity: .8;
+}
+@keyframes fondo {
+    0%,100%{
+        background-color: #1375a97d;
+    }
+    50%{
+        background: #ea090191;
+    }
+}
